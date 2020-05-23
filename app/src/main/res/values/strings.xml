@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">OnLibrary</string>
+    <string name="judul_buku">Judul Buku</string>
+    <string name="jenis_buku">Jenis Buku</string>
+    <string name="jenis_buku2">Pilih Jenis Buku : </string>
+    <string name="jumlah_halaman">Jumlah Halaman</string>
+    <string name="bahasa_buku">Bahasa</string>
+    <string name="penulis_buku">Penulis Buku</string>
+    <string name="tahun_buku">Tahun Terbit</string>
+    <string name="tambah_data">Tambah Data Buku</string>
+    <string name="edit_data">Edit Data Buku</string>
+    <string name="hapus_data">Hapus Data Buku</string>
+    <string name="ganti_gambar">Ganti Gambar</string>
+    <string name="search">Search</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="welcome">OnLibrary</string>
+    <string-array name="jenis">
+        <item>Petualangan</item>
+        <item>Musik</item>
+        <item>Multimedia</item>
+        <item>Jaringan</item>
+        <item>Motivasi </item>
+    </string-array>
+</resources>

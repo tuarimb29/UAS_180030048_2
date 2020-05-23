@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/large_margin"
+    android:orientation="vertical"
+    tools:context=".InputActivity">
+
+    <ImageView
+        android:id="@+id/image_buku"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/medium_margin"
+        android:contentDescription="@string/ganti_gambar"
+        app:srcCompat="@drawable/ic_book_dark_24dp" />
+
+    <EditText
+        android:id="@+id/edit_judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/medium_margin"
+        android:autofillHints="@string/judul_buku"
+        android:ems="10"
+        android:hint="@string/judul_buku"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorTextDark" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/medium_margin"
+        android:layout_marginTop="@dimen/large_margin"
+        android:layout_marginEnd="@dimen/medium_margin"
+        android:padding="@dimen/small_margin"
+        android:text="@string/jenis_buku2"
+        android:textColor="@color/colorTextDark"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/spinner_jenis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/medium_margin" />
+
+    <EditText
+        android:id="@+id/edit_jumlah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/medium_margin"
+        android:layout_marginTop="@dimen/medium_margin"
+        android:autofillHints="@string/jumlah_halaman"
+        android:ems="10"
+        android:hint="@string/jumlah_halaman"
+        android:inputType="phone"
+        android:textColor="@color/colorTextDark" />
+
+    <EditText
+        android:id="@+id/edit_bahasa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/medium_margin"
+        android:autofillHints="@string/bahasa_buku"
+        android:ems="10"
+        android:hint="@string/bahasa_buku"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/colorTextDark" />
+
+    <EditText
+        android:id="@+id/edit_penulis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/medium_margin"
+        android:autofillHints="@string/penulis_buku"
+        android:ems="10"
+        android:hint="@string/penulis_buku"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/colorTextDark" />
+
+    <EditText
+        android:id="@+id/edit_tahun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/medium_margin"
+        android:autofillHints="@string/tahun_buku"
+        android:ems="10"
+        android:hint="@string/tahun_buku"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/colorTextDark" />
+
+
+    <Button
+        android:id="@+id/btn_simpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/medium_margin"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/save"
+        android:textColor="@android:color/white" />
+
+
+</LinearLayout>
