@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">OnLibrary</string>
+    <string name="app_name">Perpustakaan</string>
     <string name="judul_buku">Judul Buku</string>
     <string name="jenis_buku">Jenis Buku</string>
     <string name="jenis_buku2">Pilih Jenis Buku : </string>
@@ -14,7 +14,7 @@
     <string name="search">Search</string>
     <string name="delete">Delete</string>
     <string name="save">Save</string>
-    <string name="welcome">OnLibrary</string>
+    <string name="welcome">Welcome</string>
     <string-array name="jenis">
         <item>Petualangan</item>
         <item>Musik</item>
